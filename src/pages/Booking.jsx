@@ -1,4 +1,4 @@
-import BookingDetail from "../features/bookings/BookingDetail";
+import BookingDetail from "../features/bookings-v1/BookingDetail";
 
 function Booking() {
   return <BookingDetail />;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BookingDataBox from "../../features/bookings/BookingDataBox";
+import BookingDataBox from "../bookings-v1/BookingDataBox";
 
 import Row from "../../ui/Row";
 import Heading from "../../ui/Heading";
@@ -9,7 +9,7 @@ import ButtonText from "../../ui/ButtonText";
 import Spinner from "../../ui/Spinner";
 
 import { useMoveBack } from "../../hooks/useMoveBack";
-import { useBooking } from "../bookings/useBooking";
+import { useBooking } from "../bookings-v1/useBooking";
 import { useEffect, useState } from "react";
 import Checkbox from "../../ui/Checkbox";
 import { formatCurrency } from "../../utils/helpers";
