@@ -2,4 +2,4 @@
 
 Main project in Jonas Ultimate React Course. It was built using React, React Query and supabase.
 
-Currently, two official plugins are available:
+The app is for managing of customer's booking's in the resort by the staff.

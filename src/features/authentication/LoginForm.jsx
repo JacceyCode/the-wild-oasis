@@ -41,6 +41,7 @@ function LoginForm() {
           disabled={isLoading}
         />
       </FormRowVertical>
+      <p>Test email: mehep23166@dixiser.com</p>
 
       <FormRowVertical label="Password">
         <Input
@@ -52,6 +53,7 @@ function LoginForm() {
           disabled={isLoading}
         />
       </FormRowVertical>
+      <p>Test password: password12</p>
 
       <FormRowVertical>
         <Button size="large" disabled={isLoading}>
